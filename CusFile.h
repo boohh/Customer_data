@@ -1,4 +1,4 @@
-pragma once
+#pragma once
 #ifndef CusFile_H_
 #define CusFile_H_
 
@@ -60,11 +60,10 @@ public:
 	void ChangeEmail();							// Function to change email of customer
 	void ChangeLastName();						// Function to change last name of customer
 	void FilterByFirstName();						// Function to filter by name
-	string TLastChanged();						// Function to show the date last change
-	string encrypted(string);					// Encrypted information in file
-	string decrypted(string);					// Decrypted information in file
+	inline string TLastChanged();						// Function to show the date last change
+	inline string encrypted(string);					// Encrypted information in file
+	inline string decrypted(string);					// Decrypted information in file
 
 };
 
 #endif
-
