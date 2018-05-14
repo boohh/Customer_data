@@ -1,4 +1,5 @@
-# Customer_data
+# Customer_data_vs1.0
+
 
 USER DOCUMENTATION
 
@@ -11,3 +12,8 @@ I. Getting started guide
 II. Operators information
 
 - When you reinstall the application, if you want to use the old database, you need to put file .exe in the same folder with these file: “customer.csv”, “abcxyz.csv”, “language.txt” and run the application normally.
+
+
+MODIFICATION:
+
+BUGS FIXED
